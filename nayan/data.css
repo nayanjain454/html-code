@@ -1,0 +1,60 @@
+.background {
+   background-image: url("p13.jpg");
+   height: 500px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+* {
+   margin: 0px;
+   padding: 0px;
+}
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.rightside {
+   margin-left: 600px;
+}
+.rightside a {
+   font-size: 25px;
+   margin-right: 5px;
+   text-decoration: none;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-family: 'Courier New', Courier, monospace;
+}
+.leftside img {
+   height: 80px;
+}
+.leftside h1 {
+   display: inline;
+   color: white;
+   font-size: 30px;
+   text-align: center;
+}
+.content {
+   text-align: center;
+   margin-top: 100px;
+}
+.content h1 {
+   font-size: 75px;
+   color: white;
+}
+.img{
+   display: grid;
+}
+.img img{
+   margin-top: 5%;
+   margin-left: 55%;
+   height: 600px;
+   width: 600px;
+   display: grid;
+}
+.img h1{
+   margin-top: 0%;
+   font-size: 30px;
+   margin-right: 100px;
+}
